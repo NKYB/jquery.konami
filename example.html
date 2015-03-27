@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>jquery.konami - Example</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="jquery.konami.js"></script>
+</head>
+<body >
+    <p>Type 'admin' with focus on this page to activate the konami code!</p>
+    <div id="container"></div>
+    <script>
+        // character codes for 'admin'
+        var measure_success = 0;
+        $(document).konami({charCodes: [65,68,77,73,78], successHandler: function(){
+            $('#container').text('konami success: ' + ++measure_success);
+        }});
+    </script>
+</body>
+</html>       
