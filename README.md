@@ -13,4 +13,4 @@ Example Usage
 ```
 
 Licensed under the GPL v3 License
-Copyright 2015 ApplyContext.com
+Build by ApplyContext.com
