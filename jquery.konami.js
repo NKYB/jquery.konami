@@ -5,11 +5,7 @@
  * What is a konami?
  * http://en.wikipedia.org/wiki/Konami_Code
  *
- * Commercial use requires one-time purchase of a commercial license
- * http://ApplyContext.com
- *
- * Non-commercial use is licensed under the GPL v3 License
- *
+ * Licensed under the GPL v3 License
  * Copyright 2015 ApplyContext.com
  * 
  * Example Usage
