@@ -11,8 +11,9 @@ Non-commercial use is licensed under the GPL v3 License
 Copyright 2015 ApplyContext.com
 
 Example Usage
-
+```
   // create a konami 'admin' that triggers console message
   $(document).konami({charCodes: [65,68,77,73,78], successHandler: function(){
     console.log('konami success');
   }});
+```
