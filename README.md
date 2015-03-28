@@ -13,4 +13,5 @@ Example Usage
 ```
 
 Licensed under the GPL v3 License
-> Build by http://ApplyContext.com
+
+Build by http://applycontext.com
