@@ -14,7 +14,7 @@ Example Usage
 
 What are all the key codes?
 
-# Key                 |	Code
+Key                 |	Code
 --------------------- | -------------
 backspace		| 8
 tab			| 9
