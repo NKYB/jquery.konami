@@ -41,8 +41,10 @@
             this._initKeyCapture();
         },
         _initMobileTextBox: function(){
-            var html = '<div  style="position:absolute;top:-30px;left:0px;width:0px;height:0px;"><input id="' + this.JQUERY_KONAMI_TEXT_BOX_TO_TRIGGER_KEYBOARD + '" type="text"></input></div>';
-            $('body').prepend(html);
+            $(document).ready($.proxy(function(){
+                var html = '<div  style="position:absolute;top:-30px;left:0px;width:0px;height:0px;"><input id="' + this.JQUERY_KONAMI_TEXT_BOX_TO_TRIGGER_KEYBOARD + '" type="text"></input></div>';
+                $('body').prepend(html);
+            },this));
         },
         _initMobileEvents: function(){
             var timerStart, timerEnd = 0;
