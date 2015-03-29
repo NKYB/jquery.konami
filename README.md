@@ -1,6 +1,9 @@
 # jquery.konami
 A simple, lightweight jQuery plugin to easily add a konami code to a website
 
+With support for mobile web sites, just tap and hold for 2 seconds to bring
+up a soft keyboard that enters the Konami Code
+
 What is a konami code?
 http://en.wikipedia.org/wiki/Konami_Code
 
