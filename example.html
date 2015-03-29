@@ -11,6 +11,11 @@
 <body >
     <p>Type 'admin' with focus on this page to activate the konami code!</p>
     <div id="container"></div>
+    
+    <p>Konami Code shouldn't work when these elements have focus</p>
+    <div><input type="text"></input></div>
+    <div><input type="password"></input></div>
+    <div><textarea></textarea></div>
     <script>
         // character codes for 'admin'
         var measure_success = 0;
